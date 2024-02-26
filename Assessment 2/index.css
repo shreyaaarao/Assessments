@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('index.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+    color: white;
+  }
+  
+  
+  header {
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px 0; 
+  }
+  
+  nav ul {
+    position: sticky;
+    list-style: none;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px; 
+    transition: color 0.3s; 
+  }
+  
+  nav ul li a:hover {
+    color: skyblue; 
+  }
+
+  h1{
+    color: white;
+    height: 80vh;
+    text-align: center;
+    margin-top: 30vh;
+  }
+
+  footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    
+  }
