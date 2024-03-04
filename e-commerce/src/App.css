@@ -1,0 +1,54 @@
+.features{
+  float: left;
+  font-family: 'Inconsolata', monospace;
+  size: 0vmax;
+  padding: 40px;
+  max-width: min-content;
+  
+
+ 
+}
+
+header{
+  font-size: x-large;
+  text-align: center;
+  width: 100%;
+  padding: 10px 0;
+  background-color:forestgreen;
+  color: white;
+  
+}
+.title{
+  font-family: 'Inconsolata', monospace;
+  font-size: large;
+}
+.description{
+  font-family: 'Inconsolata', monospace;
+  font-size: medium;
+}
+.price{
+  font-family: 'Inconsolata', monospace;
+  font-size: medium;
+  font-weight: bold;
+}
+.button{
+  height: 35px;
+  margin-left :10px;
+  font-weight: bold;
+  background-color:forestgreen;
+  color: #fff;
+  border-radius: 2px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.674);
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color:forestgreen;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+  
+}
